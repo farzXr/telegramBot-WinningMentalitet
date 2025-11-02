@@ -2,9 +2,6 @@ services:
   bot:
     build: Dockerfiles/bot/
     container_name: bot
-    working_dir: /app
+    working_dir: /app/bot
     volumes:
       - ./bot:/app/bot
-
-  api:
-    build:
