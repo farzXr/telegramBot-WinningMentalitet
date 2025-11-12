@@ -7,5 +7,6 @@ resize_keyboard=True,
 input_field_placeholder='Выберите пункт меню...')
 
 btnBuy = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text='ЮKassa 💳', callback_data='buySubscribe'),],
+    [InlineKeyboardButton(text='PayMaster 💳', callback_data='buySubscribe'),],
+
 ])
