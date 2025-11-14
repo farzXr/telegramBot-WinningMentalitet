@@ -73,4 +73,3 @@ async def got_payment(message: Message, bot: Bot):
         )
 
 
-
